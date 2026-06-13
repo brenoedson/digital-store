@@ -2,9 +2,11 @@ span { font-size: 28px;}
 
 * { 
     margin: 0;
+    padding: 0;
     color: #000000;
     text-decoration: none;
     font-family: sans-serif;
+    list-style: none;
 }
 
 header {
@@ -87,6 +89,60 @@ main {
                     font-size: 16px;
                     padding: 16px 13px;
                     line-height: 28px;
+                    outline-color: #c92071;
+                }
+            }
+        }
+
+        p {
+            a {
+                font-size: 14px;
+                line-height: 22px;
+                text-decoration: underline;
+                letter-spacing: 0.25px;
+                color: #474747;
+            }
+        }
+
+        button {
+            height: 48px;
+            background-color: #c92071;
+            border: none;
+            border-radius: 8px;
+            color: #F5F5F5;
+            font-size: 16px;
+            font-weight: 700;
+            letter-spacing: .75px;
+        }
+
+        .others {
+            margin: auto;
+
+            p {
+                font-size: 14px;
+                line-height: 22px;
+                letter-spacing: .25px;
+                color: #474747;
+            }
+
+            ul {
+                display: flex;
+                justify-content: center;
+                margin-top: 20px;
+                align-items: center;
+                gap: 24px;
+
+                li {
+                    height: 24px;
+
+                    a {
+                        display: block;
+                        height: fit-content;
+
+                        .email-icon {
+                            margin-top: 2px;
+                        }
+                    }
                 }
             }
         }
