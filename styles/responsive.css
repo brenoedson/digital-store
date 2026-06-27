@@ -1,0 +1,183 @@
+@media (width >= 480px) {
+    main {
+        padding: 63px 50px 80px;
+    }
+
+    footer {
+        padding: 50px 50px 46px;
+
+        .information {
+            justify-content: space-between;
+        }
+    }
+}
+
+@media (width >= 768px) {
+    main {
+        form {
+            width: 583px;
+            margin: auto;
+
+            .title {
+                h1 {
+                    font-size: 32px;
+                    line-height: 36px;
+                    letter-spacing: 1px;
+                    margin-bottom: 10px;
+                }
+
+                p {
+                    font-size: 16px;
+                    line-height: 28px;
+                    letter-spacing: .75px;
+                }
+            }
+
+            .others {
+                p {
+                    font-size: 16px;
+                };
+            }
+        }
+    }
+    
+    footer {
+        .information {
+            flex-direction: column;
+
+            div {
+                ul {
+                    display: grid;
+                    grid-template-columns: 1fr 1fr 1fr;
+                }
+            }
+        }
+    }
+}
+
+@media (width >= 1024px) {
+    footer {
+        padding: 50px 75px 46px;
+
+        .first-box {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+
+            .information {
+                flex-direction: row;
+
+                div {
+                    ul {
+                        display: flex;
+                        flex-direction: column;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (width >= 1200px) {
+    header{
+        justify-content: start;
+        padding-left: 50px;
+
+        a {
+            justify-content: start;
+        }
+    }
+
+    main {
+        display: flex;
+
+        .banner {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            img {
+                height: 450px;
+            }
+
+            .sneaker-front {
+                transform: rotate(-10deg);
+            }
+
+            .sneaker-back {
+                transform: rotate(10deg);
+            }
+        }
+    }
+
+    footer {
+        padding: 50px 75px 46px;
+
+        .first-box {
+            display: flex;
+            justify-content: space-between;
+
+            .information {
+                gap: 60px;
+            }
+        }
+    }
+}
+
+@media (width >= 1440px) {
+    header{
+        justify-content: start;
+        padding-left: 50px;
+
+        a {
+            justify-content: center;
+        }
+    }
+
+    footer {
+        padding: 72px 97px 22px;
+
+        .first-box {
+            .social {
+                .logo {
+                    margin-bottom: 35px;
+
+                    img {
+                        width: 33px;
+                    }
+                    
+                    span {
+                        font-size: 36px;
+                    }
+                }
+
+                p {
+                    font-size: 16px;
+                    line-height: 26px;
+                    margin-bottom: 40px;
+                }
+            }
+
+            .information {
+                gap: 100px;
+
+                div {
+                    h2 {
+                        margin-bottom: 28px;
+                    }
+
+                    ul {
+                        a {
+                            line-height: 38px;
+                        }
+                    };
+                }
+            }
+
+            .contact {
+                h2 {
+                    margin-bottom: 28px;
+                }
+            }
+        }
+    }
+}
